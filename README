@@ -1,0 +1,6 @@
+install:
+	sudo pip3 install byte_to_humanity
+
+example:
+	print('mb= ' + str(byteto(314575262000000, 'm')))
+

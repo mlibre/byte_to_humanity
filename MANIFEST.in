@@ -1,0 +1,4 @@
+recursive-include byte_to_humanity *
+include setup.py
+include LICENSE
+include README
