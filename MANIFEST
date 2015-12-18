@@ -2,4 +2,5 @@
 LICENSE
 README
 setup.py
+byte_to_humanity/__init__.py
 byte_to_humanity/byte_to_humanity.py
