@@ -2,3 +2,5 @@
 setup.py
 byte_to_humanity/__init__.py
 byte_to_humanity/bth.py
+byte_to_humanity/__pycache__/__init__.cpython-35.pyc
+byte_to_humanity/__pycache__/bth.cpython-35.pyc

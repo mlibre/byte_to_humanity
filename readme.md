@@ -14,7 +14,7 @@ sudo pip3 install byte_to_humanity
 ~~~
 &nbsp;&nbsp;&nbsp;&nbsp;or
 ~~~bash
-sudo pip3 install byte_to_humanity
+sudo pip install byte_to_humanity
 ~~~
 
 ##Example:
@@ -26,6 +26,12 @@ print( bytes, 'byte =' , str( byte_to( bytes , 'k') ) , 'kilobyte')
 ~~~
 ##More
 ###Install from source/git
+~~~bash
+git clone "https://github.com/mlibre/byte_to_humanity.git"
+cd byte_to_humanity/
+sudo python setup.py install
+~~~
+
 ###Step By Step example
 1. open terminal
 2. create a file like test.py on your Linux
