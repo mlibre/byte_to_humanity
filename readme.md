@@ -28,8 +28,9 @@ or
     cd byte_to_humanity/
     sudo python setup.py install
 	~~~
+
 ---
-### Example:
+### Example
 ~~~python
 from byte_to_humanity.bth import convert_byte_to
 
