@@ -8,8 +8,8 @@ def read(file_name):
 
 setup(
 	name = "byte_to_humanity",
-	version = "1.4",
-    author = "mlibre",
+	version = "1.5",
+	author = "mlibre",
 	author_email = "m.gh@linuxmail.org",
 	description = "Convert Bytes to Megabyte, Kilobyte and ...",
 	long_description = read("readme"),
