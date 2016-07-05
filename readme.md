@@ -66,7 +66,7 @@ This project has no license!. You may consider this as **Public Domain** or **CC
 		print( bytes, 'byte =' , str( convert_byte_to( bytes , 't') ) , 'kilobyte')
 		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'p') ) , 'kilobyte')
 		~~~
-    4. Run code.
+    4. **Run** code.
     ~~~bash
 	python3 test.py
 	~~~
