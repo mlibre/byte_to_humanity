@@ -12,7 +12,7 @@ setup(
 	author = "mlibre",
 	author_email = "m.gh@linuxmail.org",
 	description = "Convert Bytes to Megabyte, Kilobyte and ...",
-	long_description = read("readme"),
+	long_description = read("README"),
 	license = read("license"),
 	keywords = "convert byte kilobyte megabyte gigabyte",
 	url = "https://github.com/mlibre/byte_to_humanity",
