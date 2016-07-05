@@ -51,15 +51,21 @@ This project has no license!. You may consider this as **Public Domain** or **CC
 ### More
 + <big>**Step By Step example**</big>
 
-    1. Open terminal.
-    2. Create a file like **test.py**.
-    3. Copy and past down code in **test.py**.  
-        `from byte_to_humanity.bth import byte_to`  
-        `bytes = 2048`  
-        `print( bytes, 'byte =' , str( byte_to( bytes , 'k') ) , 'kilobyte')`
-    4. Run code.  
-    `python3 test.py`  
-or  
-    `python test.py`
+    1. Open **terminal**.
+    2. **Create** a file like **test.py**.
+    3. Copy and past **down code** in **test.py**.
+        ~~~python
+		from byte_to_humanity.bth import byte_to
+        bytes = 2048
+        print( bytes, 'byte =' , str( byte_to( bytes , 'k') ) , 'kilobyte')
+		~~~
+    4. Run code.
+    ~~~bash
+	python3 test.py
+	~~~
+or
+~~~bash
+python test.py
+~~~
 
 ---
