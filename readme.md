@@ -2,7 +2,7 @@
 Simple **Python 3** module that Convert **Bytes** to **Megabyte**, **Kilobyte** and ...
 
 ## Table of Contents
-+ [Install](#install)
+* [Install](#install)
 	+ with **pip**
 	+ with **git**
 * [Example](#example)

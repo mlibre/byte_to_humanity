@@ -1,4 +1,4 @@
-__author__ = 'mas'
+__author__ = 'mlibre'
 
 import os
 from distutils.core import setup
@@ -8,10 +8,10 @@ def read(file_name):
 
 setup(
 	name = "byte_to_humanity",
-	version = "1.3",
-    author = "m.gh@linuxmail.org",
+	version = "1.4",
+    author = "mlibre",
 	author_email = "m.gh@linuxmail.org",
-	description = "convert bytes to kilobyte, megabyte, gigabyte, ...",
+	description = "Convert Bytes to Megabyte, Kilobyte and ...",
 	long_description = read("readme"),
 	license = read("license"),
 	keywords = "convert byte kilobyte megabyte gigabyte",
