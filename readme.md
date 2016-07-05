@@ -64,8 +64,8 @@ This project has no license!. You may consider this as **Public Domain** or **CC
 	python3 test.py
 	~~~
 or
-~~~bash
-python test.py
-~~~
+	~~~bash
+	python test.py
+	~~~
 
 ---
