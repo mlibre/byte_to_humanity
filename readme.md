@@ -54,10 +54,17 @@ This project has no license!. You may consider this as **Public Domain** or **CC
     1. Open **terminal**.
     2. **Create** a file like **test.py**.
     3. Copy and past **down code** in **test.py**.
+
         ~~~python
-		from byte_to_humanity.bth import byte_to
-        bytes = 2048
-        print( bytes, 'byte =' , str( byte_to( bytes , 'k') ) , 'kilobyte')
+		from byte_to_humanity.bth import convert_byte_to
+
+		bytes = 2048
+
+		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'k') ) , 'kilobyte')
+		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'm') ) , 'kilobyte')
+		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'g') ) , 'kilobyte')
+		print( bytes, 'byte =' , str( convert_byte_to( bytes , 't') ) , 'kilobyte')
+		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'p') ) , 'kilobyte')
 		~~~
     4. Run code.
     ~~~bash
