@@ -67,12 +67,13 @@ This project has no license!. You may consider this as **Public Domain** or **CC
 		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'p') ) , 'kilobyte')
 		~~~
     4. **Run** code.
-    ~~~bash
-	python3 test.py
-	~~~
+
+		~~~bash
+		python3 test.py
+		~~~
 or
-	~~~bash
-	python test.py
-	~~~
+		~~~bash
+		python test.py
+		~~~
 
 ---
