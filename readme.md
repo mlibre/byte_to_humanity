@@ -37,10 +37,10 @@ from byte_to_humanity.bth import convert_byte_to
 bytes = 2048
 
 print( bytes, 'byte =' , str( convert_byte_to( bytes , 'k') ) , 'kilobyte')
-print( bytes, 'byte =' , str( convert_byte_to( bytes , 'm') ) , 'kilobyte')
-print( bytes, 'byte =' , str( convert_byte_to( bytes , 'g') ) , 'kilobyte')
-print( bytes, 'byte =' , str( convert_byte_to( bytes , 't') ) , 'kilobyte')
-print( bytes, 'byte =' , str( convert_byte_to( bytes , 'p') ) , 'kilobyte')
+print( bytes, 'byte =' , str( convert_byte_to( bytes , 'm') ) , 'megabyte')
+print( bytes, 'byte =' , str( convert_byte_to( bytes , 'g') ) , 'gigabyte')
+print( bytes, 'byte =' , str( convert_byte_to( bytes , 't') ) , 'terabyte')
+print( bytes, 'byte =' , str( convert_byte_to( bytes , 'p') ) , 'petabyte')
 ~~~
 
 ---
@@ -61,10 +61,10 @@ This project has no license!. You may consider this as **Public Domain** or **CC
 		bytes = 2048
 
 		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'k') ) , 'kilobyte')
-		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'm') ) , 'kilobyte')
-		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'g') ) , 'kilobyte')
-		print( bytes, 'byte =' , str( convert_byte_to( bytes , 't') ) , 'kilobyte')
-		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'p') ) , 'kilobyte')
+		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'm') ) , 'megabyte')
+		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'g') ) , 'gigabyte')
+		print( bytes, 'byte =' , str( convert_byte_to( bytes , 't') ) , 'terabyte')
+		print( bytes, 'byte =' , str( convert_byte_to( bytes , 'p') ) , 'petabyte')
 		~~~
     4. **Run** code.
 
