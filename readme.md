@@ -14,19 +14,20 @@ Simple **Python 3** module that Convert **Bytes** to **Megabyte**, **Kilobyte** 
 ### Install
 + <big>**with pip**</big>
 	
-	```bash
+	~~~bash
 	sudo pip3 install byte_to_humanity
-	```
+	~~~
 or
-	```bash
+	~~~bash
 	sudo pip install byte_to_humanity
-	```
+	~~~
 + <big>**with git**</big>
-    ```bash
+
+	~~~bash
 	git clone "https://github.com/mlibre/byte_to_humanity.git"
     cd byte_to_humanity/
     sudo python setup.py install
-	```
+	~~~
 ---
 ### Example:
 ~~~python
