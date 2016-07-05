@@ -8,12 +8,13 @@ Simple **Python 3** module that Convert **Bytes** to **Megabyte**, **Kilobyte** 
 * [Example](#example)
 * [License](#license)
 * [More](#more)
-    * Step By Step example
+    * Step By Step **example**
 
 ---
 ### Install
 + <big>**with pip**</big>
-	```bash
+	
+	```
 	sudo pip3 install byte_to_humanity
 	```
 or
