@@ -1,10 +1,10 @@
-# Byte To Humanity
-Simple **Python** 3 module that Convert **Bytes** to **Megabyte**, **Kilobyte**, ...
+# Byte to Humanity
+Simple **Python 3** module that Convert **Bytes** to **Megabyte**, **Kilobyte** and ...
 
-## Table Of contents
+## Table of Contents
 + [Install](#install)
-	+ With pip
-	+ With git
+	+ with **pip**
+	+ with **git**
 * [Example](#example)
 * [License](#license)
 * [More](#more)
@@ -12,21 +12,27 @@ Simple **Python** 3 module that Convert **Bytes** to **Megabyte**, **Kilobyte**,
 
 ---
 ### Install
-+ <big>**With pip**</big>
-	+ `sudo pip3 install byte_to_humanity`  
-or  
-    + `sudo pip install byte_to_humanity`
-+ <big>**With git**</big>
-    + `git clone "https://github.com/mlibre/byte_to_humanity.git"`
-    + `cd byte_to_humanity/`
-    + `sudo python setup.py install`
-
++ <big>**with pip**</big>
+	```bash
+	sudo pip3 install byte_to_humanity
+	```
+or
+	```bash
+	sudo pip install byte_to_humanity
+	```
++ <big>**with git**</big>
+    ```bash
+	git clone "https://github.com/mlibre/byte_to_humanity.git"
+    cd byte_to_humanity/
+    sudo python setup.py install
+	```
 ---
 ### Example:
 ~~~python
 from byte_to_humanity.bth import convert_byte_to
 
 bytes = 2048
+
 print( bytes, 'byte =' , str( convert_byte_to( bytes , 'k') ) , 'kilobyte')
 print( bytes, 'byte =' , str( convert_byte_to( bytes , 'm') ) , 'kilobyte')
 print( bytes, 'byte =' , str( convert_byte_to( bytes , 'g') ) , 'kilobyte')
@@ -40,7 +46,6 @@ This project has no license!. You may consider this as **Public Domain** or **CC
 
 ---
 ### More
-
 + <big>**Step By Step example**</big>
 
     1. Open terminal.
