@@ -3,24 +3,14 @@ Simple **Python 3** module that Convert **Bytes** to **Megabyte**, **Kilobyte** 
 
 ## Table of Contents
 * [Install](#install)
-	+ with **pip**
 	+ with **git**
 * [Example](#example)
 * [License](#license)
 * [More](#more)
-    * Step By Step **example**
+   * Step By Step **example**
 
 ---
 ### Install
-+ <big>**with pip**</big>
-	
-	~~~bash
-	sudo pip3 install byte_to_humanity
-	~~~
-or
-	~~~bash
-	sudo pip install byte_to_humanity
-	~~~
 + <big>**with git**</big>
 
 	~~~bash
@@ -77,3 +67,7 @@ or
 		~~~
 
 ---
+
+## Donate
+My Coinbase Bitcoin Wallet Address:
+> 3ASnE6ZPk4tYWvEGzwFiMp8wiMtJ1UquAV
